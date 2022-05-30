@@ -17,23 +17,37 @@
 
         <!--nav bar -->
         <nav class="nav-menu">
-                <ul class="nav-ul-menu">
-                    <li><a href="#" class="nav-ul-li-menu">HTML</a>
-                          <ul class="nav-ul-sub-menu-1">
-                                <li><a href="file:///C:/Users/Dell/Downloads/my%20tutorial/first-page/index.html" target="_blank" class="nav-ul-li-sub-menu">HTML Home</a></li>
-                                <li><a href="#" class="nav-ul-li-sub-menu">HTML Forms</a></li>
-                                <li><a href="#" onclick="myFunction()" class="nav-ul-li-sub-menu dropbtn">HTML Graphics</a>
-                                    <div id="myDropdown" class="dropdown-content">
-                                        <a href="#home">Home</a>
-                                        <a href="#about">About</a>
-                                        <a href="#contact">Contact</a>
-                                      </div>
-                                </li>
-                           </ul>               
-                    </li>
-                    <li><a href="#" class="nav-ul-li-menu">CSS</a></li>
-                    <li><a href="#" class="nav-ul-li-menu">JavaScript</a></li>
-                </ul>   
+
+            <ul class="header-main-menu">
+                <li class="" alt="learn html"><a href="#" class="AA">HTML
+                    <button onclick="myFunction()" class="dropbtn" id="drop">Dropdown</button>
+                    <button onclick="showSubMenu()" class="dropbtn" id="drop">Dropdown</button>
+                    <button onclick="Function()" class="dropbtn" id="drop">Dropdown</button>
+                </a>
+                <li class="" alt="learn html"><a href="#" class="AA">CSS</a>
+                <li class="" alt="learn html"><a href="#" class="AA">JavaScript</a>
+            </ul>
+             
+                
+                <div id="myDropdown" class="dropdown-content dropdown-cont">
+                  <a href="#home">usman</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                </div>
+               
+                <div id="myHtml" class="dropdown-content">
+                  <a href="#home">victoria</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                </div>
+                
+                <div id="myCss" class="dropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
+                </div>
+              
+        
         </nav>
 
      <button> <a href="#">sign up</a> </button>
@@ -247,6 +261,6 @@
 
 
 
-   <script src="home.js"></script>
+   <script src="home.js"  src="node.js"></script>
 </body>
 </html>
